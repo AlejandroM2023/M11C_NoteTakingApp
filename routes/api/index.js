@@ -7,7 +7,6 @@ const idGen = require('uniqid');
 
 router.get('/notes', (req,res)=> {
     res.send(notes);
-    console.log(notes);
 });
 
 router.post('/notes', (req,res)=> {
